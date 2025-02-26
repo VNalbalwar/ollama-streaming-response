@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📡 Streamify - Real-Time Response Streaming
 
-## Getting Started
+## ⚡ What is Streamify?
+Streamify is a **super smooth, real-time response streaming app** built with **Next.js 15**. It gives you that instant **drip-feed** of responses, no lags, no delays—just straight-up live text generation. 🚀
 
-First, run the development server:
+---
 
+## 🔥 Features
+- **Real-time response streaming** 🏎️💨
+- **Sleek & minimal UI** 🎨
+- **Super lightweight & fast** ⚡
+- **Built using Next.js 15** (because modern problems need modern solutions 😎)
+
+---
+
+## 🛠️ Setup Guide
+
+### **1️⃣ Clone the Repo**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ git clone https://github.com/VNalbalwar/ollama-stream-response.git
+ cd ollama-stream-response
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **2️⃣ Install Dependencies**
+```bash
+ npm install  # or yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **3️⃣ Make Sure You Have Ollama Server Running**
+This app depends on **Ollama Server** (which should be running on its default port `11434`). If you don’t have it yet, install & start it:
+```bash
+ ollama serve
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+_(No Ollama, no streaming—so don’t skip this step!)_ 🚀
 
-## Learn More
+### **4️⃣ Run the App**
+```bash
+ npm run dev  # or yarn dev
+```
+Boom! Your app is now live at: **http://localhost:3000** 🎉
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧐 Troubleshooting
+### **Ollama Server Not Found?**
+- Make sure it’s installed and running.
+- Run `ollama serve` in a separate terminal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Port Conflicts?**
+- Default **Next.js dev server** runs on `3000`, but if that’s occupied, it’ll ask to use another port.
 
-## Deploy on Vercel
+### **Something Else Broke?**
+- Run `npm run build` and then `npm run start` to check if it’s a build issue.
+- Still stuck? Drop an issue on GitHub! 🔥
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Wanna Contribute?
+Pull requests are always welcome. Just **fork** the repo, make your magic happen, and send that PR. 💪
+
+---
+
+## 🚀 Shoutout to the Tech Stack
+- **Next.js 15** ⚛️
+- **TailwindCSS** 💅
+- **Ollama Server** 🧠
+
+---
+
+## 🤝 Connect With Me
+Made by [Viraj Nalbalwar](https://github.com/VNalbalwar). Let’s build cool stuff together! 😎🔥
