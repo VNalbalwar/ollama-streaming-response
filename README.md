@@ -34,7 +34,10 @@ This app depends on **Ollama Server** (which should be running on its default po
 
 _(No Ollama, no streaming—so don’t skip this step!)_ 🚀
 
-### **4️⃣ Run the App**
+### **4️⃣ Ensure You Have the Right Model Downloaded**
+The app requires a **specific model** to function properly. **Make sure you have the correct model name set** in the code and that it's **downloaded locally in Ollama**. If not, you may need to tweak a few lines in the code accordingly. ⚙️🛠️
+
+### **5️⃣ Run the App**
 ```bash
  npm run dev  # or yarn dev
 ```
@@ -46,6 +49,10 @@ Boom! Your app is now live at: **http://localhost:3000** 🎉
 ### **Ollama Server Not Found?**
 - Make sure it’s installed and running.
 - Run `ollama serve` in a separate terminal.
+
+### **Model Issues?**
+- Double-check that the required model is available locally in Ollama.
+- Update the model name in the code if needed.
 
 ### **Port Conflicts?**
 - Default **Next.js dev server** runs on `3000`, but if that’s occupied, it’ll ask to use another port.
@@ -70,3 +77,4 @@ Pull requests are always welcome. Just **fork** the repo, make your magic happen
 
 ## 🤝 Connect With Me
 Made by [Viraj Nalbalwar](https://github.com/VNalbalwar). Let’s build cool stuff together! 😎🔥
+
