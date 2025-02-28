@@ -9,7 +9,7 @@ Streamify is a **super smooth, real-time response streaming app** built with **N
 - **Real-time response streaming** 🏎️💨
 - **Sleek & minimal UI** 🎨
 - **Super lightweight & fast** ⚡
-- **Built using Next.js 15** (because modern problems need modern solutions 😎)
+- **Built using Next.js 15** (because modern problems need modern solutions ! 😎)
 
 ---
 
